@@ -1,3 +1,22 @@
-CMAPSS stands for Commercial Modular Aero-Propulsion System Simulation. It is a system developed by NASA to study engine degradation. It is coded in MATLAB and Simulink (a toolbox of MATLAB). The engine under study is a turbofan engine (a jet engine). A turbofan engine has many components. A few important components are: Fan, Low Pressure Compressor (LPC), High Pressure Compressor (HPC), Low Pressure Turbine (LPT), High Pressure Turbine (HPT), etc. During operation, degradation occurs in each of the components. If degradation level in any component exceeds a threshold, the engine is said to have failed. We don't want jet engines to fail mid-air. Therefore, jet engines are inspected before every take off. This is a form of periodic maintenance that is not cost effective. But given the critical nature of operation (considering human lives involved), this form of maintenance strategy is justified. Even then, we need a system that can given us early warning if something is going to fail. An early warning, in many cases, may help us prepare for the problem, if not prevent it altogether. A sufficiently early warning will enable us to prevent the disaster. But if an early warning is too conservative (i.e., too early), it will lead to unnecessary waste of money. So, aim of a predictive maintenance system is to predict the RUL as accurately as possible such that it is neither too early nor too late.
+CMAPSS stands for Commercial Modular Aero-Propulsion System Simulation. 
+It is a system developed by NASA to study engine degradation. 
+It is coded in MATLAB and Simulink (a toolbox of MATLAB).
+ The engine under study is a turbofan engine (a jet engine).
+ A turbofan engine has many components.
+ A few important components are: Fan, Low Pressure Compressor (LPC), 
+High Pressure Compressor (HPC), Low Pressure Turbine (LPT), High Pressure Turbine (HPT),
+ etc. During operation, degradation occurs in each of the components. 
+If degradation level in any component exceeds a threshold, the engine is said to have failed. 
+We don't want jet engines to fail mid-air.
+ Therefore, jet engines are inspected before every take off. 
+This is a form of periodic maintenance that is not cost effective.
+ But given the critical nature of operation (considering human lives involved), 
+this form of maintenance strategy is justified. Even then,
+ we need a system that can given us early warning if something is going to fail. 
+An early warning, in many cases, may help us prepare for the problem, if not prevent it altogether. 
+A sufficiently early warning will enable us to prevent the disaster. But if an early warning is too conservative (i.e., too early), 
+it will lead to unnecessary waste of money. So, aim of a predictive maintenance system is to predict the RUL as accurately 
+as possible such that it is neither too early nor too late.
 
-In the setup, we don't study one engine at a time. Instead, simultaneously several engines are run. If degradation threshold of any engine is exceeded, that engine is turned off. From the data we can find out how many engin
+In the setup, we don't study one engine at a time. Instead, simultaneously several engines are run. 
+If degradation threshold of any engine is exceeded, that engine is turned off. From the data we can find out how many engin
